@@ -7,6 +7,9 @@ eval "$(rbenv init - --no-rehash zsh)"
 # Load zsh-autosuggestions plugin
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Short ip alias
+alias ip="ipconfig getifaddr en0"
+
 # Neovim always 
 alias vim="nvim"
 alias vi="nvim"
