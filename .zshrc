@@ -1,3 +1,7 @@
+# Add Xcode 16.2 developer toolchain binaries to PATH
+path+=('/Applications/Xcode16.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin')
+export PATH
+
 # Initialise homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
